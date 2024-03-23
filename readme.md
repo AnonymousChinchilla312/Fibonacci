@@ -1,25 +1,27 @@
 # Overview
 
-This program displays the fibonacci and lucas sequences using Erlang. It can display sequences of a certain length, sequences up to a maximum value, and numbers in specific positions in the sequence.
+This program implements a Gaussian Naive Bayes classifier in Rust to predict data on the iris csv file.
 
-I created this to teach myself the basics of Erlang, as well as recursion and data types.
+I wrote this program to learn more about both Rust and typical machine learning processes.
 
-[Software Demo Video](https://youtu.be/5CP-8AXLRWw)
+[Software Demo Video](https://youtu.be/RWayvirIWwc)
 
 # Development Environment
 
 This project was developed using VS Code.
 
+The libraries 'rand' and 'std' were used for this program.
+
 # Useful Websites
 
 Some websites that were helpful in developing this project.
 
-- [Erlang Reference Manual User's Guide](https://www.erlang.org/doc/reference_manual/users_guide)
-- [Learn You Some Erlang website](https://learnyousomeerlang.com/)
+- [TutorialsPoint Rust Tutorial](https://www.tutorialspoint.com/rust/index.htm)
+- [GeeksForGeeks Gaussian Naive Bayes Explanation](https://www.geeksforgeeks.org/gaussian-naive-bayes/)
 
 # Future Work
 
 These are a few steps to improve this code should I need to:
 
-- Implementing memoization to improve performance time for large numbers.
-- Allowing for sequences that expand into the negative numbers as well as positive numbers.
+- In the future, I would like to implement a way to let the user add new data to the dataset.
+- I would also like to add a menu that allows the user to choose to predict a single observation instead of simply displaying the accuracy score for the whole set.
